@@ -32,10 +32,10 @@ setup(name = "impac",
       version = "1.0.0",
       long_description = "",
       packages=find_packages("."),
-      package_data = {
-          "impac": ["data/*"],
-      },
-      include_package_data=True,
+    #   package_data = {
+    #       "impac": ["data/*"],
+    #   },
+    #   include_package_data=True,
       install_requires=required,
       dependency_links=links,
       license = "MIT"
